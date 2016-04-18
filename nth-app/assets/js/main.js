@@ -36,7 +36,7 @@
 					});
 
 		// Fix: Placeholder polyfill.
-			$('form').placeholder();
+			//$('form').placeholder();
 
 		// Prioritize "important" elements on medium.
 			skel.on('+medium -medium', function() {
@@ -46,11 +46,12 @@
 				);
 			});
 
-		// Scrolly.
+		/* Scrolly.
 			$('.scrolly')
 				.scrolly({
 					speed: 1500
 				});
+		*/
 
 	});
 
