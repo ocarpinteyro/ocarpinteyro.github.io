@@ -3620,6 +3620,27 @@
 
 	}
 
+		div.btns_actions {
+			position: relative;
+		}
+
+		.download_btn_apple {
+			overflow: hidden;
+			display: block;
+			text-indent: -99999px;
+			width: 170px;
+			height: 50px;
+			background: url("images/download_appstore_us.svg");
+			background-size: 170px 50px;
+			border: none;
+			position: relative;
+			float: right;
+		}
+
+		.download_btn_apple span {
+			display: none;
+		}
+
 /* Header */
 
 	#header {
@@ -3939,6 +3960,11 @@
 					overflow: hidden;
 				}
 
+			.download_btn_apple {
+				float: none;
+				margin: 0 auto;
+			}
+
 		}
 
 		@media screen and (max-width: 736px) {
@@ -3955,45 +3981,6 @@
 					font-size: 1em;
 					line-height: inherit;
 				}
-
-		}
-
-		div.btns_actions {
-			position: relative;
-		}
-
-		.download_btn_apple {
-			overflow: hidden;
-			display: block;
-			text-indent: -99999px;
-			width: 170px;
-			height: 50px;
-			background: url("images/download_appstore_us.svg");
-			background-size: 170px 50px;
-			border: none;
-			position: relative;
-			float: right;
-		}
-
-		.download_btn_apple span {
-			display: none;
-		}
-
-		@media screen and (max-width: 980px) and (orientation: portrait) {
-
-			.download_btn_apple {
-				float: none;
-				margin: 0 auto;
-			}
-
-		}
-
-		@media screen and (max-width: 736px) and (orientation: landscape) {
-
-			.download_btn_apple {
-				float: none;
-				margin: 0 auto;
-			}
 
 		}
 
